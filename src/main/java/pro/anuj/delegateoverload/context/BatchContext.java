@@ -1,9 +1,6 @@
 package pro.anuj.delegateoverload.context;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.*;
 import pro.anuj.delegateoverload.Type;
 import pro.anuj.delegateoverload.impl.batchtype.BatchTypeDelegate;
 import pro.anuj.delegateoverload.impl.type.TypeDelegate;
